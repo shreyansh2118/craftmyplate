@@ -2,6 +2,8 @@ import 'package:craftmyplate/namePage.dart';
 import 'package:flutter/material.dart';
 
 import '../authfile/emailAuth.dart';
+import '../mainHomePage.dart';
+import '../navigationPage.dart';
 
 class loginFirst extends StatefulWidget {
   const loginFirst({super.key});
@@ -93,7 +95,7 @@ class _loginFirstState extends State<loginFirst> {
                               Navigator.pushReplacement(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => namePage()));
+                                      builder: (context) => navi()));
                             } else {
                               // Scaffold.of(context).showSnackBar(SnackBar(
                               //   content: Text(
@@ -117,7 +119,7 @@ class _loginFirstState extends State<loginFirst> {
                                   Navigator.pushReplacement(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (context) => namePage()));
+                                          builder: (context) =>  navi()));
                                 } else {
                                   // Scaffold.of(context).showSnackBar(SnackBar(
                                   //   content: Text(

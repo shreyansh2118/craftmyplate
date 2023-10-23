@@ -39,6 +39,11 @@ dependencies:
   firebase_core:
   firebase_auth:
   carousel_slider: ^4.2.1
+  firebase_storage: ^11.2.5
+  image_picker: ^1.0.1
+  path: ^1.8.3
+  path_provider: ^2.0.15
+#  carousel_slider: ^2.3.1
 
 
 dev_dependencies:
@@ -67,26 +72,11 @@ flutter:
   assets:
     - asset/screen1.png
     - asset/screen2.png
-    - asset/first.png
-    - asset/second.png
-    - asset/third.png
     - asset/login.png
-    - asset/food.png
-    - asset/img1.jpeg
-    - asset/img2.png
-    - asset/drinks.png
-    - asset/rice.jpg
-    - asset/curry.jpg
-    - asset/pizza.png
-    - asset/chicken.jpg
-    - asset/mashroom.jpg
-    - asset/vegies.jpg
-    - asset/biryani.jpg
-    - asset/bread.jpg
-    - asset/planeRice.jpg
-    - asset/rosugulla.jpg
-    - asset/salad.png
-
+    - asset/phone.png
+    - asset/banner1.png
+    - asset/
+    - asset/images/
 #     - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

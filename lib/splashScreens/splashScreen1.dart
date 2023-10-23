@@ -1,6 +1,8 @@
 import 'package:craftmyplate/splashScreens/splashScreen2.dart';
 import 'package:flutter/material.dart';
 
+import '../loginPage/loginfirst.dart';
+
 class splashScreen1 extends StatefulWidget {
   const splashScreen1({super.key});
 
@@ -20,7 +22,7 @@ class _splashScreen1State extends State<splashScreen1> {
           //splash screen won't show on back button press
           //navigation to Home page.
           builder: (context) {
-        return splashScreen2();
+        return loginFirst();
       }));
     });
 
